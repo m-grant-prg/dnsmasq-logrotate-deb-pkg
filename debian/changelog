@@ -1,9 +1,9 @@
-dnsmasq-logrotate (1.0.13+deb11u3) UNRELEASED; urgency=medium
+dnsmasq-logrotate (1.0.13+deb11u3) bullseye; urgency=medium
 
   * Update Copyright for 2023.
   * Update watch file to use git mode.
 
- -- Mark Grant <m.grant.prg@gmail.com>  Fri, 17 Mar 2023 14:52:40 +0000
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 17 Mar 2023 14:54:18 +0000
 
 dnsmasq-logrotate (1.0.13+deb11u2) bullseye; urgency=medium
 
