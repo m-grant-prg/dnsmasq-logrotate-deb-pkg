@@ -1,0 +1,53 @@
+#! /usr/bin/env bash
+#########################################################################
+#									#
+# Script ID: postinst							#
+# Author: Copyright (C) 2018  Mark Grant				#
+#									#
+# Released under the GPLv3 only.					#
+# SPDX-License-Identifier: GPL-3.0					#
+#									#
+# Purpose:								#
+# A Debian package post installation script for the dnsmasq-logrotate	#
+# package. The script invokes the dnsmasq-postrotate.sh script with the	#
+# --setup option. See the man page for this script for further		#
+# information.								#
+#									#
+# Exit Codes:	0 - success						#
+#		1 - failure						#
+#									#
+#########################################################################
+
+#########################################################################
+#									#
+# Changelog								#
+#									#
+# Date		Author	Version	Description				#
+#									#
+# 09/11/2018	MG	1.0.1	First release.				#
+# 15/12/2018	MG	1.0.2	Remove all functional code which is now	#
+#				improved and incorporated in the	#
+#				dnsmasq-postrotate.sh script with the	#
+#				--setup option which is now invoked in	#
+#				its place.				#
+#									#
+#########################################################################
+
+# Bail out on error.
+set -e
+
+##################
+# Init variables #
+##################
+version="1.0.2"				# set version variable
+
+########
+# Main #
+########
+
+dnsmasq-postrotate.sh --setup
+
+#DEBHELPER#
+
+exit 0
+
