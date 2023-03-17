@@ -1,0 +1,8 @@
+dnsmasq-logrotate for Debian
+----------------------------
+
+Debian and raspbian deb packages can be found at:-
+https://github.com/m-grant-prg/dnsmasq-logrotate/releases
+
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 25 May 2018 10:04:20 +0100
