@@ -1,3 +1,9 @@
+dnsmasq-logrotate (1.0.13-0ubuntu20.04u2) UNRELEASED; urgency=medium
+
+  * Update Copyright for 2023.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 17 Mar 2023 15:17:02 +0000
+
 dnsmasq-logrotate (1.0.13-0ubuntu20.04u1) focal; urgency=medium
 
   * New upstream release.
@@ -87,7 +93,7 @@ dnsmasq-logrotate (1.0.8-deb9u1) stretch; urgency=medium
 dnsmasq-logrotate (1.0.7-deb9u1) stretch; urgency=medium
 
   * New upstream release.
-    Replace functionality in the postinst script with a call to 
+    Replace functionality in the postinst script with a call to
     dnsmasq-postrotate.sh --setup which has improved replacement functionality.
 
  -- Mark Grant <m.grant.prg@gmail.com>  Sat, 15 Dec 2018 10:08:28 +0000
