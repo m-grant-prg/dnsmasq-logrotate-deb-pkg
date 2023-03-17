@@ -1,0 +1,208 @@
+dnsmasq-logrotate (1.0.13-0ubuntu22.04u1) jammy; urgency=medium
+
+  * Create jammy branch.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 29 Apr 2022 09:17:06 +0000
+
+dnsmasq-logrotate (1.0.13-deb11u2) bullseye; urgency=medium
+
+  * Upgrade to compatibility level 13.
+  * Update Debian/* Copyright for 2022.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 29 Apr 2022 08:55:06 +0000
+
+dnsmasq-logrotate (1.0.13-deb11u1) bullseye; urgency=medium
+
+  * New upstream release.
+  * Correct license in copyright.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 22 Nov 2021 14:24:06 +0000
+
+dnsmasq-logrotate (1.0.12-deb11u1) bullseye; urgency=medium
+
+  * New upstream release.
+  * Reviewed up to current standard v4.5.1
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 08 Nov 2021 09:47:05 +0000
+
+dnsmasq-logrotate (1.0.11+rc1-deb11u1) bullseye; urgency=medium
+
+  * Create new bullseye branch.
+  * Remove unnecessary .docs file.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 19 Aug 2021 15:19:59 +0000
+
+dnsmasq-logrotate (1.0.11+rc1-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+  * Update Copyright for 2021.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 04 Mar 2021 15:19:59 +0000
+
+dnsmasq-logrotate (1.0.11-deb10u1) buster; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 21 Dec 2020 10:40:39 +0000
+
+dnsmasq-logrotate (1.0.10-deb10u2) buster; urgency=medium
+
+  * Upgrade to compatibility level 12.
+  * Package reviewed up to current standards version 4.3.0.
+  * Debian files copyright updated for 2020.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 24 Oct 2020 11:12:43 +0100
+
+dnsmasq-logrotate (1.0.10-deb10u1) buster; urgency=medium
+
+  * New upstream release.
+    Correct filenamemangle to remove the v preceding the version number.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 19 Sep 2019 10:32:43 +0100
+
+dnsmasq-logrotate (1.0.9+rc1-deb10u1) buster; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 10 Aug 2019 10:23:20 +0100
+
+dnsmasq-logrotate (1.0.9-deb10u1) buster; urgency=medium
+
+  * Rebuild for buster.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 22 Jul 2019 15:01:16 +0100
+
+dnsmasq-logrotate (1.0.9-deb9u1) stretch; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 18 Apr 2019 15:19:16 +0100
+
+dnsmasq-logrotate (1.0.8+rc1-deb9u2) stretch; urgency=medium
+
+  * Add logrotate to run-time Depends.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Wed, 17 Apr 2019 15:26:28 +0100
+
+dnsmasq-logrotate (1.0.8+rc1-deb9u1) stretch; urgency=medium
+
+  * New upstream development release.
+    Update Copyright statements.
+    Update watch file with new local server source repo location.
+    Update watch file with new local source tarball name, (equivalent to GitHub
+    name).
+    Change docs to PACKAGE-docs.docs.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 14 Apr 2019 14:03:28 +0100
+
+dnsmasq-logrotate (1.0.8-deb9u1) stretch; urgency=medium
+
+  * New upstream release.
+    Update debian/control Depend and Build-depends.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 22 Dec 2018 10:43:18 +0000
+
+dnsmasq-logrotate (1.0.7-deb9u1) stretch; urgency=medium
+
+  * New upstream release.
+    Replace functionality in the postinst script with a call to 
+    dnsmasq-postrotate.sh --setup which has improved replacement functionality.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 15 Dec 2018 10:08:28 +0000
+
+dnsmasq-logrotate (1.0.6-deb9u1) stretch; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 09 Nov 2018 10:24:18 +0000
+
+dnsmasq-logrotate (1.0.5-deb9u3) stretch; urgency=medium
+
+  * Development release with updated postinst maintainer script.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 09 Nov 2018 09:48:56 +0000
+
+dnsmasq-logrotate (1.0.5-deb9u2) stretch; urgency=medium
+
+  * Development release with postinst maintainer script.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 08 Nov 2018 15:07:56 +0000
+
+dnsmasq-logrotate (1.0.5-deb9u1) stretch; urgency=medium
+
+  * New upstream release.
+    Update to new standard watch file.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Wed, 31 Oct 2018 14:34:56 +0000
+
+dnsmasq-logrotate (1.0.4-deb9u1) stretch; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 18 Oct 2018 10:39:48 +0100
+
+dnsmasq-logrotate (1.0.3-deb9u1) stretch; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 26 Aug 2018 10:27:38 +0100
+
+dnsmasq-logrotate (1.0.2-deb9u2) stretch; urgency=medium
+
+  * Change architecture to all as this package is architecture independent.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 24 Aug 2018 08:52:05 +0100
+
+dnsmasq-logrotate (1.0.2-deb9u1) stretch; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 29 Jul 2018 14:44:05 +0100
+
+dnsmasq-logrotate (1.0.1-rc4-deb9u1) stretch; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sat, 28 Jul 2018 10:10:03 +0100
+
+dnsmasq-logrotate (1.0.1-rc3-deb9u1) stretch; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 27 Jul 2018 09:21:48 +0100
+
+dnsmasq-logrotate (1.0.1-rc2-deb9u1) stretch; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 23 Jul 2018 14:59:34 +0100
+
+dnsmasq-logrotate (1.0.1-rc1-deb9u1) stretch; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 22 Jul 2018 09:25:51 +0100
+
+dnsmasq-logrotate (1.0.1-deb9u2) stretch; urgency=medium
+
+  * Add dnsamasq package as a Depends in the control file.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Wed, 30 May 2018 09:18:08 +0100
+
+dnsmasq-logrotate (1.0.1-deb9u1) stretch; urgency=medium
+
+  * New upstream release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Wed, 30 May 2018 09:00:08 +0100
+
+dnsmasq-logrotate (1.0.0-rc2-deb9u1) stretch; urgency=medium
+
+  * New upstream development release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Tue, 29 May 2018 15:23:47 +0100
+
+dnsmasq-logrotate (1.0.0-rc1-deb9u2) stretch; urgency=medium
+
+  * Initial release.
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Fri, 25 May 2018 10:04:20 +0100
