@@ -1,6 +1,7 @@
 dnsmasq-logrotate (1.1.1-0ubuntu22.04u1) UNRELEASED; urgency=medium
 
   * Merge new upstream release.
+  * Remove txt2man Build-Depends, rely on txt2manwrap.
 
  -- Mark Grant <m.grant.prg@gmail.com>  Thu, 03 Aug 2023 09:46:26 +0100
 
