@@ -1,6 +1,7 @@
 dnsmasq-logrotate (1.0.13+deb11u4) UNRELEASED; urgency=medium
 
   * Remove Build-Depends on txt2man, rely on txt2manwrap.
+  * Correct upstream Copyright.
 
  -- Mark Grant <m.grant.prg@gmail.com>  Thu, 03 Aug 2023 09:10:35 +0100
 
