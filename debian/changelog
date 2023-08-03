@@ -1,11 +1,11 @@
-dnsmasq-logrotate (1.1.1-0ubuntu22.04u1) UNRELEASED; urgency=medium
+dnsmasq-logrotate (1.1.1-0ubuntu22.04u1) jammy; urgency=medium
 
   * Merge new upstream release.
   * Remove txt2man Build-Depends, rely on txt2manwrap.
   * Change Debian source format to native.
   * Update watch file to support ~.
 
- -- Mark Grant <m.grant.prg@gmail.com>  Thu, 03 Aug 2023 09:46:26 +0100
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 03 Aug 2023 09:51:10 +0100
 
 dnsmasq-logrotate (1.0.13-0ubuntu22.04u2) jammy; urgency=medium
 
