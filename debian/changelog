@@ -1,8 +1,8 @@
-dnsmasq-logrotate (1.1.1+deb13u1) UNRELEASED; urgency=medium
+dnsmasq-logrotate (1.1.1+deb13u1) trixie; urgency=medium
 
   * Create testing branch.
 
- -- Mark Grant <m.grant.prg@gmail.com>  Thu, 03 Aug 2023 09:25:20 +0100
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 03 Aug 2023 09:27:47 +0100
 
 dnsmasq-logrotate (1.1.1+deb12u1) bookworm; urgency=medium
 
