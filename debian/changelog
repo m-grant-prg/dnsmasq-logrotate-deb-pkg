@@ -3,6 +3,7 @@ dnsmasq-logrotate (1.0.13-0ubuntu20.04u3) UNRELEASED; urgency=medium
   * Remove txt2man Build-Depends, rely on txt2manwrap.
   * Change Debian source format to native.
   * Correct upstream Copyright dates.
+  * Update watch file to support ~.
 
  -- Mark Grant <m.grant.prg@gmail.com>  Thu, 03 Aug 2023 09:31:53 +0100
 
