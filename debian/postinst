@@ -1,8 +1,7 @@
 #! /usr/bin/env bash
 #########################################################################
 #									#
-# Script ID: postinst							#
-# Author: Copyright (C) 2018  Mark Grant				#
+# Author: Copyright (C) 2018, 2024  Mark Grant				#
 #									#
 # Released under the GPLv3 only.					#
 # SPDX-License-Identifier: GPL-3.0					#
@@ -18,20 +17,6 @@
 #									#
 #########################################################################
 
-#########################################################################
-#									#
-# Changelog								#
-#									#
-# Date		Author	Version	Description				#
-#									#
-# 09/11/2018	MG	1.0.1	First release.				#
-# 15/12/2018	MG	1.0.2	Remove all functional code which is now	#
-#				improved and incorporated in the	#
-#				dnsmasq-postrotate.sh script with the	#
-#				--setup option which is now invoked in	#
-#				its place.				#
-#									#
-#########################################################################
 
 # Bail out on error.
 set -e
@@ -39,7 +24,7 @@ set -e
 ##################
 # Init variables #
 ##################
-version="1.0.2"				# set version variable
+version="1.0.3"				# set version variable
 
 ########
 # Main #
