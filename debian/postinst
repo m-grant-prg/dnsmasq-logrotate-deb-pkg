@@ -31,7 +31,7 @@ version="1.0.3"				# set version variable
 # Main #
 ########
 
-dnsmasq-postrotate.sh --setup
+dnsmasq-postrotate --setup
 
 #DEBHELPER#
 
