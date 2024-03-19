@@ -1,3 +1,10 @@
+dnsmasq-logrotate (1.1.2~rc2+deb12u1) bookworm; urgency=medium
+
+  * New upstream development release
+  * Remove obsolete script-ID
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Tue, 19 Mar 2024 09:58:49 +0000
+
 dnsmasq-logrotate (1.1.2~rc1+deb12u2) bookworm; urgency=medium
 
   * Remove in-file ChangeLogs
