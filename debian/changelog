@@ -1,8 +1,14 @@
+dnsmasq-logrotate (1.2.0~rc4+deb12u1) bookworm; urgency=medium
+
+  * New upstream development release
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 24 Mar 2024 10:06:35 +0000
+
 dnsmasq-logrotate (1.1.2~rc3+deb12u1) bookworm; urgency=medium
 
   * New upstream development release
 
- -- Mark Grant <m.grant.prg@gmail.com>  Fri, 22 Mar 2024 09:31:26 +0000
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 24 Mar 2024 10:05:21 +0000
 
 dnsmasq-logrotate (1.1.2~rc2+deb12u1) bookworm; urgency=medium
 
