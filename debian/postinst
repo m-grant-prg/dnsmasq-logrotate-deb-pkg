@@ -8,9 +8,8 @@
 #									#
 # Purpose:								#
 # A Debian package post installation script for the dnsmasq-logrotate	#
-# package. The script invokes the dnsmasq-postrotate.sh script with the	#
-# --setup option. See the man page for this script for further		#
-# information.								#
+# package. The script invokes the dnsmasq-postrotate script. See the	#
+# man page for this script for further information.			#
 #									#
 # Exit Codes:	0 - success						#
 #		1 - failure						#
@@ -24,13 +23,13 @@ set -e
 ##################
 # Init variables #
 ##################
-version="1.0.3"				# set version variable
+version="1.0.4"				# set version variable
 
 ########
 # Main #
 ########
 
-dnsmasq-postrotate --setup
+dnsmasq-postrotate
 
 #DEBHELPER#
 
