@@ -23,13 +23,13 @@ set -e
 ##################
 # Init variables #
 ##################
-version="1.0.4"				# set version variable
+version="1.0.5"				# set version variable
 
 ########
 # Main #
 ########
 
-dnsmasq-postrotate
+dnsmasq-postrotate --log-only --verbose
 
 #DEBHELPER#
 
