@@ -1,3 +1,10 @@
+dnsmasq-logrotate (1.2.0~rc6+deb12u1) bookworm; urgency=medium
+
+  * New upstream development release
+  * Run script in postinst --log-only --verbose
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Thu, 28 Mar 2024 15:52:05 +0000
+
 dnsmasq-logrotate (1.2.0~rc5+deb12u1) bookworm; urgency=medium
 
   * New upstream development release
