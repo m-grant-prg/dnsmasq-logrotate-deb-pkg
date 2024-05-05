@@ -1,3 +1,9 @@
+dnsmasq-logrotate (1.2.0+ubuntu24.04u1) noble; urgency=medium
+
+  * Create noble
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 05 May 2024 08:41:29 +0100
+
 dnsmasq-logrotate (1.2.0+ubuntu22.04u1) jammy; urgency=medium
 
   * New upstream release
