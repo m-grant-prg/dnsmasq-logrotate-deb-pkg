@@ -1,3 +1,10 @@
+dnsmasq-logrotate (1.2.1+deb12u1) bookworm; urgency=medium
+
+  * New upstream release
+  * Update Copyright for 2025
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Sun, 19 Jan 2025 09:33:02 +0000
+
 dnsmasq-logrotate (1.2.0+deb12u1) bookworm; urgency=medium
 
   *  New upstream release
