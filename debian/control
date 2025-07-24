@@ -1,0 +1,18 @@
+Source: dnsmasq-logrotate
+Section: misc
+Priority: optional
+Maintainer: Mark Grant <m.grant.prg@gmail.com>
+Build-Depends: debhelper-compat (= 13),
+	txt2manwrap
+Standards-Version: 4.5.1
+Vcs-Git: https://github.com/m-grant-prg/dnsmasq-logrotate.git
+Vcs-Browser: https://github.com/m-grant-prg/dnsmasq-logrotate
+
+Package: dnsmasq-logrotate
+Architecture: all
+Depends: dnsmasq, logrotate, procps,
+	mgrant-obs-deb-keyring,
+	${misc:Depends}
+Description: Log rotation for dnsmasq log.
+ Setup to get logrotate to rotate dnsmasq logs.
+
