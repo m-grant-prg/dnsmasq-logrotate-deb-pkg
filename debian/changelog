@@ -1,3 +1,9 @@
+dnsmasq-logrotate (1.2.1+deb14u2) forky; urgency=medium
+
+  * Transition from Trixie to Forky
+
+ -- Mark Grant <m.grant.prg@gmail.com>  Mon, 25 Aug 2025 09:02:12 +0100
+
 dnsmasq-logrotate (1.2.1+deb13u1) trixie; urgency=medium
 
   * New upstream release
